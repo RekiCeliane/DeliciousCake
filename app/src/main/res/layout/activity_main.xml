@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cbtis72.regina.deliciouscake.MainActivity">
+
+    <include layout="@layout/actionbar_toolbar" />
+
+    <Button
+        android:theme="@style/RaisedButtonDark"
+        android:textSize="20sp"
+        android:text="@string/configuraciones"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:id="@+id/settings"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/servicio"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/servicio"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/servicio" />
+
+    <Button
+        android:theme="@style/RaisedButtonDark"
+        android:textSize="20sp"
+        android:onClick="goService"
+        android:text="@string/servicio"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:id="@+id/servicio"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/Compartir"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:onClick="goCompartir"
+        android:textSize="20sp"
+        android:theme="@style/RaisedButtonDark"
+        android:text="@string/comparte_experiencia"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:id="@+id/Compartir"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cakes"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:textSize="20sp"
+        android:theme="@style/RaisedButtonDark"
+        android:text="@string/pasteles"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:id="@+id/cakes"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="90dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="goCakes"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:onClick="goSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        android:id="@+id/floatingActionButton"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp" />
+
+</android.support.constraint.ConstraintLayout>

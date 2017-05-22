@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:onClick="goChoco"
+        android:id="@+id/pastelChoco"
+        android:text="@string/pastel_chocolate"
+        android:theme="@style/ColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/actionBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="goCoco"
+        android:text="@string/pastel_coco"
+        android:id="@+id/pastelCoco"
+        android:theme="@style/ColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pastelChoco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="goQueso"
+        android:text="@string/pastel_queso"
+        android:id="@+id/pastelQueso"
+        android:theme="@style/ColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pastelCoco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="goFresa"
+        android:text="@string/pastel_fresa"
+        android:id="@+id/pastelFresa"
+        android:theme="@style/ColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pastelQueso"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="goZanahoria"
+        android:text="@string/pastel_zanahoria"
+        android:id="@+id/pastelZanahoria"
+        android:theme="@style/ColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pastelFresa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="goGalleta"
+        android:text="@string/pastel_galleta"
+        android:id="@+id/pastelGalleta"
+        android:theme="@style/ColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pastelZanahoria"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>

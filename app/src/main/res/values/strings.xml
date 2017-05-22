@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Delicious Cake</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_button_login">Login</string>
+    <string name="dont_have_account">¿No tienes cuenta?,</string>
+    <string name="create_here">crea una aquí</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_confirm_password">Confirmar Contraseña</string>
+    <string name="hint_button_createaccount">únete</string>
+    <string name="toolbar_tittle_createaccount">Crear Cuenta</string>
+    <string name="username_card">Pastel de chocolate</string>
+    <string name="firstword_card">Hace </string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumber_card">10 Me gusta</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Yo</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="pasteles">Pasteles</string>
+    <string name="comparte_experiencia">Compartenos tu experiencia</string>
+    <string name="servicio">Servicio</string>
+    <string name="pastel_coco">Pastel de coco</string>
+    <string name="pastel_chocolate">Pastel de chocolate</string>
+    <string name="pastel_queso">Pastel de queso</string>
+    <string name="pastel_fresa">Pastel de fresa</string>
+    <string name="pastel_zanahoria">Pastel de zanahoria</string>
+    <string name="pastel_galleta">Pastel de galleta</string>
+    <string name="ingredientes">Ingredientes:</string>
+    <string name="ingredientes_default">1 taza de harina. 1 taza de azúcar. 1/4 de taza de cocoa en polvo. 1 cucharadita de polvo para hornear. 1 cucharadita de bicarbonato de sodio. 3/4 de taza de leche. 1/4 de taza de mantequilla suave. 1/2 cucharadita de vainilla.</string>
+    <string name="modo_preparar">Modo de preparación:</string>
+    <string name="preparacion_default">Precalienta el horno a 180 ºC. Engrasa y enharina 2 moldes redondos medianos. En un tazón grande, mezcla el azúcar, harina, cocoa, polvo para hornear, bicarbonato de sodio y sal. Forma un pozo en el centro y agrega los huevos, leche, aceite y vainilla. Bate durante 2 minutos con batidora eléctrica a velocidad media. Incorpora la taza de agua hirviendo. La masa estará aguada, pero es normal. Vierte dentro de los moldes y hornea de 30 a 35 minutos, o hasta que pasen la prueba del palillo. Deja enfriar durante 10 minutos dentro de los moldes, luego desmolda y coloca sobre una rejilla para que enfríen completamente.</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="cocinar">Notificaciones para empezar a cocinar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

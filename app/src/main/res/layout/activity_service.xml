@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cbtis72.regina.deliciouscake.Servicio.ServiceActivity">
+
+    <include layout="@layout/actionbar_toolbar"
+        android:id="@+id/barService"/>
+
+    <Button
+        android:theme="@style/ColorButton"
+        android:text="Destroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/button2"
+        android:onClick="destroyService"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:theme="@style/ColorButton"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="startService"
+        android:layout_marginTop="145dp"
+        android:layout_below="@+id/barService"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
